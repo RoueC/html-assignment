@@ -1,43 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS File</title>
+</head>
+
 body {
     background-color:#E6E7E8;
 }
 
 header {
-
     font-family:Verdana;
     font-size: 20px;
-    padding: 20px;
+    margin: 20px;
     color:rgb(3, 93, 99);
-
 }
 
 .navbar {
-   
     overflow: hidden;
     background-color:#E37E67;
     opacity: 0.7;
     padding: 14px 14px; 
     font-family:helvetica;
+
 }
 
-. navbar a {
-
-    float: left;
-    display: block;
+.navbar a {
+    float: center;
+    display: inline;
     text-decoration: none;    
 }
 
 img {
-    /*
-    padding: 20px;
-    float: center;*/
-
     display: block;
     margin-left: auto;
     margin-right: auto;
     width:200px;
-    height:200px;
-    
+    height:200px;    
 }
 
 h1 {
@@ -53,6 +51,16 @@ p {
     font-family:verdana;
 }
 
+h5 {
+    font-family:verdana;
+    color:rgb(7, 156, 167);
+}
+
+h4 {
+    font-family:verdana;
+    color:rgb(7, 156, 167);
+    text-align: center;
+}
 
 ul.a {
     list-style-type:square;
@@ -60,7 +68,12 @@ ul.a {
 }
 
 q {
-
     color:rgb(3, 93, 99);
     font-family:helvetica;
+}
+
+dl.a {  
+    font-family:Verdana;
+    text-align: center;
+    color:rgb(80, 23, 85);
 }
