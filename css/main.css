@@ -1,0 +1,66 @@
+body {
+    background-color:#E6E7E8;
+}
+
+header {
+
+    font-family:Verdana;
+    font-size: 20px;
+    padding: 20px;
+    color:rgb(3, 93, 99);
+
+}
+
+.navbar {
+   
+    overflow: hidden;
+    background-color:#E37E67;
+    opacity: 0.7;
+    padding: 14px 14px; 
+    font-family:helvetica;
+}
+
+. navbar a {
+
+    float: left;
+    display: block;
+    text-decoration: none;    
+}
+
+img {
+    /*
+    padding: 20px;
+    float: center;*/
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:200px;
+    height:200px;
+    
+}
+
+h1 {
+    padding:20px;
+    font-family:verdana;
+    color:rgb(7, 156, 167);
+    text-align: center;
+}
+
+p {
+
+    text-align:justify;
+    font-family:verdana;
+}
+
+
+ul.a {
+    list-style-type:square;
+    font-family:Verdana;
+}
+
+q {
+
+    color:rgb(3, 93, 99);
+    font-family:helvetica;
+}
